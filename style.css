@@ -1,0 +1,12 @@
+body {
+  /* função url aceita caminho da imagem
+  background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  Y: top     X: center
+  background-position: top center;
+  background-size: cover; */
+
+  /* agrupar tudo acima em uma propriedade unica */
+  /*atalho shorthand para background: 1color 2image 3no-repeat 4position/5size*/
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
