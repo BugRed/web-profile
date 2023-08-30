@@ -2,6 +2,13 @@
 <!DOCTYPE html>
 <!-- elemento root ou html em si -->
 <html lang="pt-br">
+  <!-- link para as fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
   <!-- pais e filhos ou nó, no head ficam as configurações da page -->
   <head>
     <!-- teclado usado na pagina -->
@@ -10,9 +17,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- referenciar onde está o css, para a propria pasta ./ -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1></h1>
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/avatar.png"
+          alt="Foto de Adriano Rodrigues sorrindo com uma camisa de botão azul e fundo misto."
+        />
+        <p>@tantofazdjow</p>
+      </div>
+      <!-- ul cria listas não ordenadas -->
+      <ul>
+        <!-- li é item da lista -->
+        <li>
+          <a href="#">Inscrever-se</a>
+        </li>
+
+        <li>
+          <a href="#">Download my ebook</a>
+        </li>
+
+        <li>
+          <a href="https://github.com/BugRed" target="_blank">
+            meu portifólio</a
+          >
+        </li>
+
+        <li><a href="#">LINK</a></li>
+      </ul>
+    </div>
   </body>
 </html>

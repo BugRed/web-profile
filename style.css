@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   /* função url aceita caminho da imagem
   background-image: url(./assets/bg-mobile.jpg);
@@ -9,4 +15,35 @@ body {
   /* agrupar tudo acima em uma propriedade unica */
   /*atalho shorthand para background: 1color 2image 3no-repeat 4position/5size*/
   background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+/* usar * faz utilizar essa referencia para todos dentro do body */
+body * {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+
+/* # = seletor de ID */
+#container {
+  width: 360px;
+  height: 712px;
+  border: 1px solid red;
+
+  /* aceita 4 valores: se um valor aplica para todos, se dois valores aplica a 1 cima/baixo 2 direita/esquerda se três valores aplica 1 acima, 2 esquerda/direita se as quatro 1 cima, 2 direita, 3 baixo e 4 esquerda */
+  margin: 56px auto 0px;
+}
+
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile img {
+  width: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px;
 }
