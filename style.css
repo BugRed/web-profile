@@ -35,6 +35,8 @@ body {
   /* agrupar tudo acima em uma propriedade unica */
   /*atalho shorthand para background: 1color 2image 3no-repeat 4position/5size*/
   background: var(--bg-url) no-repeat top center/cover;
+  /* vh = viewport height */
+  height: 100vh;
 }
 
 /* usar * faz utilizar essa referencia para todos dentro do body */
@@ -171,4 +173,15 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 12px;
+}
+
+/* media queries */
+/* at rule */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+  .light {
+    --bg-url: url(./assets/bg-mobile-light.jpg);
+  }
 }
