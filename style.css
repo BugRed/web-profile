@@ -47,7 +47,6 @@ body * {
 #container {
   width: 360px;
   height: 712px;
-  border: 1px solid red;
 
   /* aceita 4 valores: se um valor aplica para todos, se dois valores aplica a 1 cima/baixo 2 direita/esquerda se três valores aplica 1 acima, 2 esquerda/direita se as quatro 1 cima, 2 direita, 3 baixo e 4 esquerda */
   margin: 56px auto 0px;
