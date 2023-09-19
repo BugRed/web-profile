@@ -173,6 +173,10 @@ ul li a:hover {
   background: var(--highlight-color);
 }
 
+[name="game-controller-outline"] {
+  padding: 3px 1px 1px 5px;
+}
+
 footer {
   /* Alinhamento de texto */
   padding: 24px 0;
