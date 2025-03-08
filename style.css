@@ -211,3 +211,7 @@ footer {
     left: 0;
   }
 }
+
+[name="microphone-outline"] {
+  padding: 3px 1px 1px 5px;
+}
